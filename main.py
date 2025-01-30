@@ -31,7 +31,7 @@ class MusicPlayer(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Modern Music Player")
+        self.setWindowTitle("Simple Music Player")
         self.setGeometry(100, 100, 400, 300)
 
         # VLC Player Instance
